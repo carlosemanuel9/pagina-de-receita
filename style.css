@@ -1,0 +1,132 @@
+@charset 'UTF-8';   
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body {
+    background-color: rgb(231, 200, 205);
+}
+.receita {
+    background-color: white;
+    margin: auto;
+    width: 650px;
+    height: 1590px;
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.img {
+    width: 550px;
+    height: 250px;
+    margin: auto;
+    display: block;
+    padding-top: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+h1 {
+    font-family: "Young Serif";
+    text-indent: 20px;
+    font-weight: 500;
+}
+p {
+    font-family: 'outfit';
+    margin: 25px;
+}
+h3,h2{
+    font-family: 'Young Serif';
+    color: rgb(145, 48, 64);
+    padding-top: 20px;
+    text-indent: 25px;
+    font-weight: 400;
+}
+ul,ol{
+    font-family: 'outfit'
+}
+li {
+    padding: 5px;
+}
+table {
+    font-family: 'outfit';
+    margin: 25px;
+    width: 500px;
+}
+td {
+    padding: 10px;
+}
+.number {
+    color: brown;
+}
+@media only screen and (max-width:600px){
+    .receita {
+        width: 355px;
+        margin-top: 40px;
+        height: 1900px;
+        
+    }
+    h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+    .img {
+        width: 330px;
+    }
+    table {
+        width: 200px;
+    }
+}   
+@media only screen and (max-width:700px){
+    .receita {
+        width: 355px;
+        margin-top: 40px;
+        height: 1900px;
+        
+    }
+    h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+    .img {
+        width: 330px;
+    }
+    table {
+        width: 200px;
+    }
+}   
+@media only screen and (max-width:500px){
+    .receita {
+        width: 300px;
+        margin-top: 40px;
+        height: 2050px;
+        
+    }
+    h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+    .img {
+        width: 290px;
+    }
+    table {
+        width: 200px;
+    }
+}   
+@media only screen and (max-width:800px){
+    .receita {
+        width: 390px;
+        margin-top: 40px;
+        height: 1900px;
+        
+    }
+    h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+    .img {
+        width: 330px;
+    }
+    table {
+        width: 200px;
+    }
+}
